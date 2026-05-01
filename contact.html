@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpeg" sizes="32x32" href="EduHigh_Logo-removebg-preview.png">
+        <title>Contact Us - EduHigh</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="brand">
+                    <div class="brand-icon">
+                        <img src="EduHigh_Logo-removebg-preview.png" alt="EduHigh Logo">
+                    </div>
+                    <div class="brand-text">
+                        <div class="brand-name">EduHigh</div>
+                        <div class="brand-tagline">Master English Faster</div>
+                    </div>
+                </div>
+                <button id="menu-icon" class="menu-icon">☰</button>
+                <div id="nav-links" class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="bac.html">Bac</a>
+                    <a href="first-bac.html">First Year Bac</a>
+                    <a href="common-core.html">Common Core</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-eyebrow">Get in Touch</div>
+                    <h1>Ready to Start Your<br><span class="hero-highlight">Learning Journey?</span></h1>
+                    <p>Questions about courses or need help? Fill in the form below or reach out directly.</p>
+                </div>
+                <div class="hero-shape hero-shape--1" aria-hidden="true"></div>
+                <div class="hero-shape hero-shape--2" aria-hidden="true"></div>
+                <div class="hero-shape hero-shape--3" aria-hidden="true"></div>
+            </section>
+            <section class="contact-section container">
+                <div class="form-wrapper">
+                    <div class="form-header">
+                        <h2>Send Us a Message</h2>
+                        <p>We'll get back to you within 24 hours.</p>
+                    </div>
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your full name"
+                                required
+                                pattern="[a-zA-ZÀ-ÿ\s\-']{2,50}"
+                            >
+                            <span class="field-icon"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@gmail.com"
+                                required
+                                pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+                            >
+                            <span class="field-icon"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="tel">Phone Number</label>
+                            <input
+                                type="tel"
+                                id="tel"
+                                name="tel"
+                                placeholder="06 XX XX XX XX"
+                                pattern="^(05|06|07)\d{8}$"
+                                maxlength="10"
+                                required
+                            >
+                            <span class="field-icon"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Choose a topic…</option>
+                                <option value="bac">Baccalaureate (2nd Year)</option>
+                                <option value="first-bac">First Year Baccalaureate</option>
+                                <option value="common-core">Common Core</option>
+                                <option value="resources">Learning Resources</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="field-icon"></span>
+                        </div>
+                        <div class="form-group form-group--full">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Tell us how we can help…"
+                                required
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>Send Message</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                        <div class="form-success" id="formSuccess" aria-live="polite">
+                            ✅ Message sent! We'll reply within 24 hours.
+                        </div>
+                    </form>
+                </div>
+                <aside class="info-sidebar">
+                    <h2>Contact Info</h2>
+                    <p class="info-intro">Prefer to reach out directly? Here's where to find us.</p>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-card__icon" aria-hidden="true"></div>
+                            <div>
+                                <a href="mailto:contact.eduhigh@gmail.com"><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;contact.eduhigh@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card__icon" aria-hidden="true"></div>
+                            <div>
+                                <a href="https://wa.me/212767879145?text=Hi%20%F0%9F%91%8B%20I%20came%20from%20EduHigh" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;Chat with us on WhatsApp</a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card__icon" aria-hidden="true"></div>
+                            <div>
+                                <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;Marrakech, Morocco</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card__icon" aria-hidden="true"></div>
+                            <div>
+                                <p><i class="fas fa-clock"></i>&nbsp;&nbsp;&nbsp;Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-teaser">
+                        <h3>Quick Answers</h3>
+                        <details class="faq-item">
+                            <summary>Is EduHigh free to use?</summary>
+                            <p>Yes — all lessons, PDFs, and quizzes on EduHigh are completely free for students.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Which level should I start with?</summary>
+                            <p>Common Core if you're in collège, First Year Bac if you just started high school, or Bac if you're in your final year.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Can I get a private teacher?</summary>
+                            <p>Absolutely. Reach out via the form or WhatsApp and we'll connect you with the right tutor.</p>
+                        </details>
+                    </div>
+                </aside>
+            </section>
+        </main>
+        <footer>
+            <p>Thank you for choosing EduHigh! | &copy; 2026 EduHigh. All rights reserved.</p>
+        </footer>
+        <script>
+            const menuIcon = document.getElementById('menu-icon');
+            const navLinks = document.getElementById('nav-links');
+            menuIcon.addEventListener('click', () => navLinks.classList.toggle('active'));
+            const form    = document.getElementById('contactForm');
+            const success = document.getElementById('formSuccess');
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                if (!form.checkValidity()) {
+                    form.reportValidity();
+                    return;
+                }
+                success.classList.add('visible');
+                form.reset();
+                setTimeout(() => success.classList.remove('visible'), 6000);
+            });
+        </script>
+    </body>
+</html>
