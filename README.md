@@ -21,13 +21,13 @@ EduHigh was built to simulate the experience of a modern learning platform while
 It emphasizes clarity, usability, and design to create an effective and enjoyable learning environment.
 
 ## 🛠️ Tech Stack
-HTML5
-CSS3
+HTML5 - 
+CSS3 - 
 JavaScript 
 
 ## 👥 Team
-Amine EL HICHAMI
-Yassine AIT OUDALLAL
+Amine EL HICHAMI - 
+Yassine AIT OUDALLAL - 
 Sami AGDACH
 
 ## Version Française
@@ -55,11 +55,11 @@ EduHigh a été conçu pour reproduire l’expérience d’une plateforme d’ap
 Le projet met l’accent sur le design, la simplicité d’utilisation et l’efficacité pédagogique.
 
 ## 🛠️ Technologies utilisées
-HTML5
-CSS3
+HTML5 - 
+CSS3 - 
 JavaScript 
 
 ## 👥 Équipe
-Amine EL HICHAMI
-Yassine AIT OUDALLAL
+Amine EL HICHAMI - 
+Yassine AIT OUDALLAL - 
 Sami AGDACH
