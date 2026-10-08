@@ -274,7 +274,6 @@ main > h2 {
   text-align: center;
   padding: var(--section-gap) 1.5rem 2.75rem;
   position: relative;
-  /* decorative radial glow */
 }
 main > h2::before {
   content: '';

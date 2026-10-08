@@ -610,7 +610,10 @@ nav {
   position: relative;
   z-index: 1;
 }
-
+.website {
+  color: #38BDF8;
+  text-decoration: underline;
+}
 .resources-content {
   max-width: 760px;
   margin-inline: auto;
