@@ -26,11 +26,6 @@ HTML5 -
 CSS3 - 
 JavaScript 
 
-## 👥 Team
-Amine EL HICHAMI - 
-Yassine AIT OUDALLAL - 
-Sami AGDACH
-
 ## Version Française
 
 ## 🎓 EduHigh
@@ -60,10 +55,6 @@ HTML5 -
 CSS3 - 
 JavaScript 
 
-## 👥 Équipe
-Amine EL HICHAMI - 
-Yassine AIT OUDALLAL - 
-Sami AGDACH
 =======
 - HTML5
 - CSS3
