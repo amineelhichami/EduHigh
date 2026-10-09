@@ -21,7 +21,6 @@ EduHigh was built to simulate the experience of a modern learning platform while
 It emphasizes clarity, usability, and design to create an effective and enjoyable learning environment.
 
 ## 🛠️ Tech Stack
-<<<<<<< HEAD
 HTML5 - 
 CSS3 - 
 JavaScript 
@@ -54,9 +53,3 @@ Le projet met l’accent sur le design, la simplicité d’utilisation et l’ef
 HTML5 - 
 CSS3 - 
 JavaScript 
-
-=======
-- HTML5
-- CSS3
-- JavaScript
->>>>>>> 83baa5f (Forms temporarily hidden)
